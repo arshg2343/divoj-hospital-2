@@ -23,17 +23,18 @@ export default function AboutDoctor() {
             transition={{ duration: 0.8 }}
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white max-w-lg mx-auto">
-               <Image 
-                 src="/dr-upasna-setia.png" 
-                 alt="Dr. Upasna Setia"
-                 width={600}
-                 height={700}
-                 className="w-full h-auto object-cover"
-               />
-               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-secondary/95 via-secondary/80 to-transparent p-8 text-white">
-                  <h3 className="text-3xl font-bold mb-2">Dr. Upasna Setia</h3>
-                  <p className="text-lg opacity-90 mb-3">Senior Gynecologist & IVF Specialist</p>
-                  <div className="flex items-center gap-4 text-sm">
+                <Image 
+                  src="/dr-upasna-setia-new.png" 
+                  alt="Dr. Upasna Setia"
+                  width={600}
+                  height={700}
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-secondary/95 via-secondary/80 to-transparent p-8 text-white">
+                   <h3 className="text-3xl font-bold mb-2">Dr. Upasna Setia</h3>
+                   <p className="text-lg opacity-90 mb-1">MBBS, DGO (Mumbai)</p>
+                   <p className="text-sm opacity-80 mb-4 italic">Formerly at Hiranandani Hospital, Mumbai</p>
+                   <div className="flex items-center gap-4 text-sm">
                     <div className="flex items-center gap-1">
                       <Award className="w-4 h-4" />
                       <span>15+ Years</span>
@@ -103,7 +104,7 @@ export default function AboutDoctor() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-secondary mb-1">Certified Expert</h4>
-                    <p className="text-sm text-gray-600">MBBS, MD (Obstetrics & Gynecology)</p>
+                    <p className="text-sm text-gray-600">MBBS, DGO (Mumbai)</p>
                   </div>
                </motion.div>
             </div>

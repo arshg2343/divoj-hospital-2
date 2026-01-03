@@ -5,7 +5,6 @@ import { useEffect, useState, useRef } from "react";
 
 const stats = [
   { number: 5, suffix: "K+", label: "Happy Patients" },
-  { number: 76, suffix: "+", label: "Specialists" },
   { number: 18, suffix: "+", label: "Years Experience" },
   { number: 24, suffix: "+", label: "Winning Awards" }
 ];
@@ -92,7 +91,7 @@ export default function StatsSection() {
   return (
     <section className="py-20 bg-gradient-to-br from-pink-50/30 to-rose-50/20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 md:gap-8 max-w-6xl mx-auto">
           {stats.map((stat, index) => (
             <StatCounter key={index} stat={stat} index={index} />
           ))}
