@@ -9,7 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "MediWeb Gynecology Clinic",
+  title: "Divoj Hospital",
   description: "Exceptional Gynecological Care & Women's Health",
 };
 
